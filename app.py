@@ -204,4 +204,4 @@ if __name__ == '__main__':
     # Start the scheduler when the app runs
     scheduler.start()
     logging.info("Background scheduler started.")
-    app.run(debug=True, host='0.0.0.0', port=5001, use_reloader=False) # use_reloader=False is important for APScheduler
+    app.run(debug=True, host='0.0.0.0', port=5003, use_reloader=False) # use_reloader=False is important for APScheduler
