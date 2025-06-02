@@ -1,3 +1,4 @@
 datetime
 flask
 APScheduler
+streamlit
